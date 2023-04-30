@@ -1,0 +1,19 @@
+[package]
+name = "mqtt_rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[dependencies]
+thiserror = "1"
+anyhow = "1"
+enum_primitive = "0.1.1"
+num = "0.4.0"
+propertyio_derive = { path = "propertyio_derive" }
+mqttio = { path = "mqttio" }
+
+#![feature(const_generics_defaults)]
+#![feature(generic_const_exprs)]
+
